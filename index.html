@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Impressos, comunicação visual e soluções gráficas sob medida para sua marca.">
+	<title>Ponto Gráfico | Sua marca em destaque</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js" defer></script>
+</head>
+<body>
+	<header class="site-header">
+		<a class="brand" href="#inicio" aria-label="Ponto Gráfico, início">
+			<span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+			<span class="brand-name">ponto<span>gráfico</span></span>
+		</a>
+		<nav class="main-nav" aria-label="Navegação principal">
+			<a href="#produtos">Produtos</a>
+			<a href="#processo">Como funciona</a>
+			<a class="nav-cta" href="#orcamento">Fazer pedido <span aria-hidden="true">↗</span></a>
+		</nav>
+	</header>
+
+	<main id="inicio">
+		<section class="hero" aria-labelledby="hero-title">
+			<div class="hero-copy">
+				<p class="eyebrow"><span></span> IMPRESSÃO COM PERSONALIDADE</p>
+				<h1 id="hero-title">Sua marca merece <span>aparecer.</span></h1>
+				<p class="hero-description">Da vitrine à camiseta, transformamos boas ideias em impressos que chamam atenção e ficam na memória.</p>
+				<a class="button-primary" href="#produtos">Encontrar meu produto <span aria-hidden="true">↓</span></a>
+				<div class="hero-proof"><span class="proof-dot"></span> Atendimento próximo, do arquivo à impressão</div>
+			</div>
+			<div class="hero-visual">
+				<img src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a?auto=format&fit=crop&w=1200&q=85" alt="Mesa de criação gráfica com materiais e projeto em desenvolvimento">
+				<div class="visual-sticker sticker-yellow">IDEIA<br>BOA!</div>
+				<div class="visual-caption"><span>IMPRESSO É PRESENÇA</span><span class="caption-colors"><i></i><i></i><i></i><i></i></span></div>
+				<span class="crop-mark crop-top" aria-hidden="true"></span>
+				<span class="crop-mark crop-bottom" aria-hidden="true"></span>
+			</div>
+			<div class="hero-colorbar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+		</section>
+
+		<section class="products-section" id="produtos" aria-labelledby="products-title">
+			<div class="section-heading">
+				<div><p class="eyebrow"><span></span> ESCOLHA O SEU PEDIDO</p><h2 id="products-title">O que vamos imprimir?</h2></div>
+				<p>Selecione um produto para ver os detalhes e começar seu orçamento.</p>
+			</div>
+			<div class="product-layout">
+				<div class="product-tabs" role="tablist" aria-label="Tipos de produtos gráficos">
+					<button class="product-tab is-active" id="tab-lona" type="button" role="tab" aria-selected="true" aria-controls="panel-lona" data-product="lona"><span class="tab-number">01</span><span class="tab-icon icon-lona" aria-hidden="true">↔</span><span class="tab-label">Lonas</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+					<button class="product-tab" id="tab-adesivo" type="button" role="tab" aria-selected="false" aria-controls="panel-adesivo" data-product="adesivo" tabindex="-1"><span class="tab-number">02</span><span class="tab-icon icon-adesivo" aria-hidden="true">✳</span><span class="tab-label">Adesivos</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+					<button class="product-tab" id="tab-camiseta" type="button" role="tab" aria-selected="false" aria-controls="panel-camiseta" data-product="camiseta" tabindex="-1"><span class="tab-number">03</span><span class="tab-icon icon-camiseta" aria-hidden="true">✦</span><span class="tab-label">Camisetas</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+					<button class="product-tab" id="tab-fachada" type="button" role="tab" aria-selected="false" aria-controls="panel-fachada" data-product="fachada" tabindex="-1"><span class="tab-number">04</span><span class="tab-icon icon-fachada" aria-hidden="true">▤</span><span class="tab-label">Fachadas</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+				</div>
+				<div class="product-details">
+					<article class="product-panel is-active" id="panel-lona" role="tabpanel" aria-labelledby="tab-lona" data-panel="lona">
+						<div class="panel-art art-lona" aria-hidden="true"><span class="art-kicker">GRANDE<br>FORMATO</span><span class="art-word">SUA<br>MARCA</span><span class="art-footer">VISÍVEL DE LONGE</span><span class="art-fold"></span></div>
+						<div class="panel-copy"><p class="product-type">01 / COMUNICAÇÃO VISUAL</p><h3>Lonas que dão escala às suas ideias.</h3><p>Para fachadas, eventos e campanhas. Impressão nítida e acabamento pensado para o seu espaço.</p><ul><li>Medida sob encomenda</li><li>Acabamento com ilhós ou bastão</li><li>Uso interno ou externo</li></ul><button class="panel-order" type="button" data-order="lona">Pedir orçamento <span aria-hidden="true">↗</span></button></div>
+					</article>
+					<article class="product-panel" id="panel-adesivo" role="tabpanel" aria-labelledby="tab-adesivo" data-panel="adesivo" hidden>
+						<div class="panel-art art-adesivo" aria-hidden="true"><span class="sticker-shape shape-one">SUA<br>MARCA</span><span class="sticker-shape shape-two">WOW!</span><span class="sticker-shape shape-three">✳</span><span class="art-footer">RECORTE DO SEU JEITO</span></div>
+						<div class="panel-copy"><p class="product-type">02 / ADESIVAÇÃO</p><h3>Adesivos feitos para circular.</h3><p>Personalizados no formato e no tamanho que você imaginar. Para produtos, embalagens, vitrines e muito mais.</p><ul><li>Recorte especial ou formato padrão</li><li>Opções para dentro e fora</li><li>Do unitário à produção em série</li></ul><button class="panel-order" type="button" data-order="adesivo">Pedir orçamento <span aria-hidden="true">↗</span></button></div>
+					</article>
+					<article class="product-panel" id="panel-camiseta" role="tabpanel" aria-labelledby="tab-camiseta" data-panel="camiseta" hidden>
+						<div class="panel-art art-camiseta" aria-hidden="true"><span class="shirt-shape"><i>VISTA<br>SUA<br>IDEIA</i></span><span class="art-footer">COR, ESTAMPA, IDENTIDADE</span></div>
+						<div class="panel-copy"><p class="product-type">03 / ESTAMPARIA</p><h3>Camisetas com a sua identidade.</h3><p>Uniformes, eventos ou aquela ideia que pede uma camiseta só dela. Sua arte, do seu jeito.</p><ul><li>Estampa personalizada</li><li>Modelos e cores sob consulta</li><li>Pedidos individuais ou para equipe</li></ul><button class="panel-order" type="button" data-order="camiseta">Pedir orçamento <span aria-hidden="true">↗</span></button></div>
+					</article>
+					<article class="product-panel" id="panel-fachada" role="tabpanel" aria-labelledby="tab-fachada" data-panel="fachada" hidden>
+						<div class="panel-art art-fachada" aria-hidden="true"><div class="storefront"><span>PONTO<br>DE ENCONTRO</span><i></i></div><span class="art-footer">SUA LOJA, DE CARA NOVA</span></div>
+						<div class="panel-copy"><p class="product-type">04 / FACHADAS</p><h3>Uma fachada que chama para entrar.</h3><p>Identidade visual para sua loja se destacar na rua e ser reconhecida de primeira.</p><ul><li>Projeto conforme o espaço</li><li>Placas e revestimentos personalizados</li><li>Orientação para instalação</li></ul><button class="panel-order" type="button" data-order="fachada">Pedir orçamento <span aria-hidden="true">↗</span></button></div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="process-section" id="processo" aria-labelledby="process-title">
+			<div class="process-heading"><p class="eyebrow"><span></span> SEM COMPLICAÇÃO</p><h2 id="process-title">Da primeira ideia<br>ao resultado final.</h2></div>
+			<ol class="process-steps">
+				<li><span>01</span><div><h3>Conte pra gente</h3><p>Escolha o produto e explique o que precisa.</p></div></li>
+				<li><span>02</span><div><h3>Alinhamos os detalhes</h3><p>Definimos medidas, materiais e acabamento.</p></div></li>
+				<li><span>03</span><div><h3>A gente produz</h3><p>Aprovada a proposta, sua ideia ganha forma.</p></div></li>
+			</ol>
+			<div class="process-stamp" aria-hidden="true"><span>FEITO<br>COM COR</span><i>✳</i></div>
+		</section>
+
+		<section class="quote-section" id="orcamento" aria-labelledby="quote-title">
+			<div class="quote-intro"><p class="eyebrow"><span></span> VAMOS TIRAR DO PAPEL?</p><h2 id="quote-title">Conte o que você precisa.</h2><p>Preencha os detalhes e a gente prepara sua mensagem de orçamento no WhatsApp.</p><div class="quote-accent" aria-hidden="true"><i></i><i></i><i></i></div></div>
+			<form class="quote-form" id="quote-form">
+				<label for="customer-name">Seu nome</label><input id="customer-name" name="name" type="text" autocomplete="name" placeholder="Como podemos te chamar?" required>
+				<div class="form-row"><div><label for="product-select">Produto</label><select id="product-select" name="product"><option value="lona">Lona</option><option value="adesivo">Adesivo</option><option value="camiseta">Camisetas</option><option value="fachada">Fachadas de lojas</option></select></div><div><label for="quantity">Quantidade</label><input id="quantity" name="quantity" type="number" min="1" placeholder="Ex.: 50" required></div></div>
+				<label for="project-details">Detalhes do pedido</label><textarea id="project-details" name="details" rows="3" placeholder="Tamanho, cores, prazo ou outras informações" required></textarea>
+				<button class="button-primary form-submit" type="submit">Continuar pelo WhatsApp <span aria-hidden="true">↗</span></button>
+				<p class="form-note" id="form-note">Sua mensagem será preparada para você revisar antes de enviar.</p>
+			</form>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<a class="brand footer-brand" href="#inicio" aria-label="Ponto Gráfico, início"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="brand-name">ponto<span>gráfico</span></span></a>
+		<p>Impressão com personalidade. Feita para a sua marca.</p>
+		<a class="footer-top" href="#inicio">Voltar ao topo ↑</a>
+	</footer>
+</body>
+</html>
